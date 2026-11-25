@@ -1,0 +1,22 @@
+# Data
+data/raw/
+data/processed/
+data/*.csv
+data/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+models/*.txt
+models/*.joblib
+
+# Secrets
+.env
